@@ -1,0 +1,6 @@
+{
+	"devDependencies": {
+		"@webgpu/types": "^0.1.40",
+		"http-server": "^14.1.1"
+	}
+}

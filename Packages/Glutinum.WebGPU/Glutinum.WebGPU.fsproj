@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <PackageProjectUrl>https://github.com/glutinum-org/Glutinum.Feliz.ReactResizeDetector</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/glutinum-org/Glutinum.Feliz.ReactResizeDetector</RepositoryUrl>
+    <GenerateDocumentationFile>true</GenerateDocumentationFile>
+    <Authors>Maxime Mangel</Authors>
+    <ChangelogFile>CHANGELOG.md</ChangelogFile>
+    <PackageLicenseFile>LICENSE.txt</PackageLicenseFile>
+    <PackageTags>fable;fable-binding;fable-javascript</PackageTags>
+  </PropertyGroup>
+  <!-- <PropertyGroup>
+    <NpmDependencies>
+      <NpmPackage Name="react-resize-detector" Version="&gt;= 7.0.0" ResolutionStrategy="Max" />
+    </NpmDependencies>
+  </PropertyGroup> -->
+  <ItemGroup>
+    <Compile Include="Types.fs" />
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="Fable.Browser.Navigator" />
+    <PackageReference Include="Fable.Browser.WebGL" />
+    <PackageReference Include="Fable.Core" />
+    <PackageReference Include="Microsoft.SourceLink.GitHub">
+      <PrivateAssets>all</PrivateAssets>
+    </PackageReference>
+  </ItemGroup>
+</Project>
